@@ -1,8 +1,8 @@
+--extra-index-url https://download.pytorch.org/whl/cu117
 diffusers 
 fastapi
 huggingface-hub==0.13.3
---find-links https://download.pytorch.org/whl/cu117
-torch==2.0.0 -f https://download.pytorch.org/whl/cu117
-torchaudio==2.0.0 -f https://download.pytorch.org/whl/cu117
-torchvision==0.15.0 -f https://download.pytorch.org/whl/cu117
+torch
+torchaudio
+torchvision
 transformers @ git+https://github.com/huggingface/transformers@ff20f9cf3615a8638023bc82925573cb9d0f3560
