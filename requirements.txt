@@ -1,6 +1,7 @@
 diffusers 
 fastapi
 huggingface-hub==0.13.3
+--find-links https://download.pytorch.org/whl/cu117
 torch==2.0.0
 torchaudio==2.0.0
 torchvision==0.15.0
