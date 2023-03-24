@@ -2,6 +2,7 @@
 diffusers 
 fastapi
 huggingface-hub==0.13.3
+uvicorn
 torch
 torchaudio
 torchvision
